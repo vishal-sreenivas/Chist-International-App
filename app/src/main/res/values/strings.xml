@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Christ International</string>
+    <string name="welcome_message">Welcome, %1$s</string>
+    <string name="international_students">International Students</string>
+    <string name="update_events">Events Updates</string>
+    <string name="alumni_details">Alumni Details</string>
+    <string name="feedback_reviews">Feedback Reviews</string>
+    <string name="appointments">Appointments</string>
+    <string name="no_new_notifications">No new</string>
+    <string name="new_notifications">%1$d new</string>
+    <string name="faculty_dashboard">Faculty Dashboard</string>
+    <string name="default_professor_name">Professor</string>
+    <string name="error_initializing_dashboard">Error initializing dashboard: %1$s</string>
+    <string name="error_launching_module">Error launching %1$s: %2$s</string>
+    <string name="module_coming_soon">%1$s module coming soon!</string>
+</resources>

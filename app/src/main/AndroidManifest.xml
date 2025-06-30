@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChristInternational"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false"
+            android:label="Admin Login"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".StudentDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FacultyDashboardActivity"
+            android:exported="false"
+            android:label="Faculty Dashboard" />
+        <activity
+            android:name=".InternationalStudentsActivity"
+            android:exported="false"
+            android:label="International Students"
+            android:parentActivityName=".FacultyDashboardActivity" />
+        <activity
+            android:name=".AppointmentBookingActivity"
+            android:exported="false"
+            android:label="Book Appointment"
+            android:parentActivityName=".StudentDashboardActivity" />
+        <activity
+            android:name=".FacultyAppointmentsActivity"
+            android:exported="false"
+            android:label="View Appointments"
+            android:parentActivityName=".FacultyDashboardActivity" />
+        <activity
+            android:name=".EventUpdatesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TranslatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:exported="false"
+            android:label="Submit Feedback"
+            android:parentActivityName=".StudentDashboardActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".ChatbotActivity"
+            android:exported="false"
+            android:label="Chat with Assistant"
+            android:parentActivityName=".StudentDashboardActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".ManageUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateEventsActivity"
+            android:exported="false"
+            android:label="Update Events"
+            android:parentActivityName=".AdminDashboardActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "379073088169",
+    "project_id": "dfdfd-a62c0",
+    "storage_bucket": "dfdfd-a62c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379073088169:android:19008e79cea55cd18777b8",
+        "android_client_info": {
+          "package_name": "com.example.christ_international"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBST5kh-zwce8N5u9j56ZVT5uuwVWc0Ds4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
