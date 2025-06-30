@@ -6,8 +6,6 @@ The **International Students App** is a robust Android application built to stre
 
 ## 📽️ Demo
 
-https://github.com/Sharanya-aa/Christ-International/blob/master/Christ%20International.mp4
-
 https://appetize.io/app/b_os7ap43lsx7etbn4cmca6nmc3i
 
 ---
