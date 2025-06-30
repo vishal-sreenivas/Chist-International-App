@@ -52,8 +52,8 @@ https://appetize.io/app/b_os7ap43lsx7etbn4cmca6nmc3i
 
 <p align="center">
   <img src="https://github.com/vishal-sreenivas/Chist-International-App/blob/master/Admin_Dashboard.jpg" alt="Student Dashboard" width="300"/>
-  <img src="Screenshots/Faculty_Dashboard.jpg" alt="Faculty Dashboard" width="300"/>
-  <img src="Screenshots/Admin_Dashboard.jpg" alt="Admin Dashboard" width="300"/>
+  <img src="https://github.com/vishal-sreenivas/Chist-International-App/blob/master/Student_Dashboard.jpg" alt="Faculty Dashboard" width="300"/>
+  <img src="https://github.com/vishal-sreenivas/Chist-International-App/blob/master/Faculty_Dashboard.jpg" alt="Admin Dashboard" width="300"/>
 </p>
 
 
